@@ -1,4 +1,5 @@
 "use strict";
 (() => {
-    let isSuperUser = true;
+    let avengers;
+    //
 })();

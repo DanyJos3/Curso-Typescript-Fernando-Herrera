@@ -11,3 +11,6 @@ Objetos literales
 Funciones
 Clases
 Arreglos
+
+
+ Un tipo Number('12A') -> devuelve un Number, que es considerado un numero.

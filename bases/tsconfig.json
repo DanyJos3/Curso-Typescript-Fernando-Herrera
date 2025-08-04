@@ -7,7 +7,7 @@
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "nodenext",
+    "module": "esnext",
     "target": "esnext",
     // For nodejs:
     "lib": ["dom", "esnext", "es6"],
@@ -36,9 +36,9 @@
     "strict": true,
     "jsx": "react-jsx",
     "verbatimModuleSyntax": true,
-    "isolatedModules": true,
+    // "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
-    "moduleDetection": "force",
+    // "moduleDetection": "force",
     "skipLibCheck": true
   },
   "include": ["./*", "./**/*", "./bases/**/*", "./tipos/**/*"]
