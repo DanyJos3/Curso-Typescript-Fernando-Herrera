@@ -1,0 +1,13 @@
+Tipos de datos 
+
+Primitivos
+String
+Number
+Boolean
+Symbol
+
+Compuestos
+Objetos literales
+Funciones
+Clases
+Arreglos
