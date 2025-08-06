@@ -41,5 +41,6 @@
     // "moduleDetection": "force",
     "skipLibCheck": true
   },
-  "include": ["./*", "./**/*", "./bases/**/*", "./tipos/**/*"]
+  "include": ["./*", "./**/*.ts"],
+  "exclude": ["node_modules2"]
 }
