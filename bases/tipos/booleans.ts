@@ -1,3 +1,0 @@
-(() => {
-  let isSuperUser: boolean = true;
-})();

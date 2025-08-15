@@ -4,19 +4,20 @@
     // File Layout
     // "rootDir": "./src",
     // "outDir": "./dist",
+    "outFile": "./dist/app.js",
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "esnext",
-    "target": "esnext",
+    "module": "amd",
+    "target": "es6",
     // For nodejs:
-    "lib": ["dom", "esnext", "es6"],
+    // "lib": ["dom", "esnext", "es5"],
     // "types": ["es6"],
     // "types": ["node"],
     // and npm install -D @types/node
 
     // Other Outputs
-    "sourceMap": false,
+    "sourceMap": true,
     "declaration": false,
     "declarationMap": false,
 
@@ -35,12 +36,12 @@
     // Recommended Options
     "strict": true,
     "jsx": "react-jsx",
-    "verbatimModuleSyntax": true,
+    // "verbatimModuleSyntax": true,
     // "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
     // "moduleDetection": "force",
     "skipLibCheck": true
   },
-  "include": ["./*", "./**/*.ts"],
-  "exclude": ["node_modules2"]
+  "include": ["ES6"],
+  "exclude": ["node_modules"]
 }

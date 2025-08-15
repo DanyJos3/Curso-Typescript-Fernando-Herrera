@@ -1,5 +1,0 @@
-(() => {
-  let avengers: number;
-
-  //
-})();
