@@ -9,9 +9,9 @@
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
     "module": "amd",
-    "target": "es6",
+    "target": "es5",
     // For nodejs:
-    // "lib": ["dom", "esnext", "es5"],
+    // "lib": ["dom", "esnext", "es6"],
     // "types": ["es6"],
     // "types": ["node"],
     // and npm install -D @types/node
@@ -42,6 +42,6 @@
     // "moduleDetection": "force",
     "skipLibCheck": true
   },
-  "include": ["ES6"],
+  "include": ["namespaces"],
   "exclude": ["node_modules"]
 }

@@ -63,3 +63,45 @@ ES5 VS ES6
 ## Destructuracion
 
 en ES5 generaba mas codigo usando var, en ES6 es el mismo codigo que JS
+
+## Clases
+
+Con una caracteristica nueva de ES6 en JS
+
+## Scope
+
+dentro de un if se puede crear una nueva variable, con el nombre de la variable que existe fuera del if.
+
+## Objeto THIS en una funcion flecha
+
+en una función de flecha, el objeto "THIS" no se refiere a la propia función. En su lugar, "THIS" retiene el valor que tenía en el contexto donde se definió la función de flecha, es decir, "THIS" se mantiene igual al contexto exterior y no cambia cuando se ejecuta la función. Este es un concepto clave en JavaScript que ayuda a evitar confusiones con el valor de "THIS" en diferentes tipos de funciones.
+
+## metodos de clase
+
+En ES6 no se puede hacer todavia metodos privados, en ts se declaran y cuando se intenta acceder da error, pero igual se compila/transpila
+
+## static
+
+la propiedad y metodos estaticos son accesibles sin crear un objeto de la clase, sino directamente declarando la clase
+
+## identificadores
+
+public --> Se puede acceder desde fuera de la clase
+private --> se puede acceder solo dentro de la clase
+protected --> se puede acceder desde la clase y clase que extienden de ella.
+
+## Clases abstractas
+
+No se puede crear una nueva instancia de una clase abstracta,
+Sirve para crear otras clases, o asegurasse que otras clases implementen lo que se establece en la abstracta.
+
+## Constructores privados
+
+Sirven para crear el patron singleton, cada vez se usa menos
+
+## Interfaces
+
+Es similar a los types en TS. La diferencia es que un tipo no puede extenderse, la interfaz si.
+Una interfaz tiene lo mas minimo de una clase.
+
+Las interfaces no implementan los metodos, a difrenecia de las clases.
